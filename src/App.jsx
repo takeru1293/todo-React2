@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import ReactDom from "react-dom";
-import ColorfulMessage from "./components/ColorfulMessage";
+import { ColorfulMessage } from "./components/ColorfulMessage";
 
 const App = () => {
   // stateの設定----------------------------------------------------------
