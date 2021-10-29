@@ -1,13 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
+import App from "./App.js";
 
-const App = () => {
-  return (
-    <>
-      <h1>こんにちは</h1>
-      <p>元気ですか?</p>
-    </>
-  );
-};
-
+// コンポーネント化下ファイルを出力
 ReactDom.render(<App />, document.getElementById("root"));
